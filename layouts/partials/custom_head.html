@@ -1,0 +1,57 @@
+<!-- A partial to be overwritten by the user.
+     Its content will appear before the closing </head>-tag -->
+
+<style>
+:root {
+    /* === Dark Blue Theme === */
+
+    /* Cover / Landing area */
+    --cover-text-color: #1a2f5e;
+    --highlight: #2d6fe8;
+    --highlight-contrast: #ffffff;
+    --highlight-inverse: #ffffff;
+    --highlight-inverse-contrast: #2d6fe8;
+    --cover-title-and-description-guard-bg-color: rgba(255, 255, 255, 0.55);
+    --cover-title-text-shadow: rgba(255,255,255,0.7) 0px 0px 7px;
+
+    /* Sticky navigation */
+    --sticky-menu-text-color: #7ab8f5;
+
+    /* Light sections */
+    --section-light-text-color: #1a2744;
+    --section-light-bg-color: #eef3fc;
+
+    /* Dark sections */
+    --section-dark-text-color: #dce8f8;
+    --section-dark-bg-color: #0d2255;
+
+    /* Code */
+    --section-uni-code-bg-color: #d0ddf5;
+    --section-uni-quote: #6080b0;
+
+    /* Footer */
+    --footer-color-background: #071533;
+    --footer-color: #a0b8d8;
+}
+</style>
+
+<!-- Custom CSS via "custom.css"-file
+     If you would rather place your custom CSS into
+     a separate file, create a "custom.css" in your
+     local "static/css"-directory. Then add a <link>-tag
+     referencing your "custom.css" like so: -->
+
+<!-- <link rel="stylesheet" href='{{ "css/custom.css" | absURL }}'> -->
+
+<!-- Custom CSS: Color Codes
+     You may checkout https://htmlcolorcodes.com/ to get those
+     weird color codes (like "#22343A") ;-). -->
+
+<!-- Custom link-tags for different icons
+     Generated via https://favicon.io/favicon-generator/ -->
+
+{{ with resources.Get "images/apple-touch-icon.png" }}<link rel="apple-touch-icon" sizes="180x180" href="{{ .RelPermalink }}" />{{ end }}
+{{ with resources.Get "images/favicon.svg" }}<link rel="icon" type="image/svg+xml" href="{{ .RelPermalink }}" />{{ end }}
+{{ range seq 9 4 }}{{ $size := pow 2 . }}{{ $file := replace "images/favicon-##x##.png" "##" $size }}{{ with resources.Get $file }}
+<link rel="icon" type="{{ .MediaType.Type }}" sizes="{{- $size -}}x{{- $size -}}" href="{{ .RelPermalink }}" />{{ end }}{{ end }}
+
