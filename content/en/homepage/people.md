@@ -62,3 +62,9 @@ copy from current member
 
 <div class="end-people"></div> 
 -->
+
+## Lab Photos
+
+<div class="lab-photos">
+{{< figure src="images/people/lab-photo_2026-05.png" caption="May 2026" class="lab-photo" >}}
+</div>

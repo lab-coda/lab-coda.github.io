@@ -78,6 +78,28 @@ img[alt=profile-photo] {
     border-radius: 50%;
 }
 
+/* lab photo - all photos follow inline and start new line when full */
+.lab-photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+figure.lab-photo {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+figure.lab-photo img {
+    height: 250px;
+}
+
+figure.lab-photo figcaption {
+    font-size: 90%;
+    margin-top: 0.5rem;
+}
+
 /* affiliation */
 img[alt=affiliation] {
     display: inline;
