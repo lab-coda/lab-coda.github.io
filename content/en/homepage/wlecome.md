@@ -1,9 +1,15 @@
 ---
-title: "Welcome to CODA Lab"
+title: "Welcome to CODA Lab!"
 navigation_menu_title: "CODA Lab"
 weight: 1
 ---
 
-We are the Cogntion Open Data Analysis Lab at University of Biritish Columbia!
+We investigate the neurocognitive processes that shape how we experience daily life, and their support and disruption in mental health conditions. 
+We combine neuroimaging, behavioural measures, and phenotypic data in a transdiagnostic framework. 
+We aim to conduct reproducible research and share our tools openly with the community.
 
-Our research is dedicated to understand how the brain processes the world to improve our understanding of mental health.
+
+![image](images/ubc_djavid-mowafaghian-centre-for-brain-health_1920x1080_50517125641_o.jpg)
+
+CODA Lab is located in Djavid Mowafaghian Centre for Brain Health on the UBC Point Grey (Vancouver) campus, 
+which sits on the traditional, ancestral, unceded territory of the xʷməθkʷəy̓əm (Musqueam) First Nation.
