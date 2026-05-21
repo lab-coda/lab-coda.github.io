@@ -69,9 +69,8 @@ article .begin-people ~ pre {
 
 }
 
-
 /* profile pic */
-img[alt=photo] {
+img[alt=profile-photo] {
     width: 60%;
     height: auto;
     aspect-ratio: 1;

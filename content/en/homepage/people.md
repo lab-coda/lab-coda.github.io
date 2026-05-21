@@ -8,7 +8,6 @@ header_menu: false
 
 The lab starts in May 2026 at UBC. We are hoping to [grow this team](#open-positions) in the coming years!
 
----
 
 <div class="begin-people"></div>
 
@@ -19,14 +18,14 @@ __*Principal investigator*__ \
 [`email`](mailto:haoting.wang@ubc.ca)\
 Assistant Professor in Data Science. 
 
-![photo](images/people/no-profile-pic.png)
+![profile-photo](images/people/no-profile-pic.png)
 
 ##### Mr Penguin
 
 __*Lab manager*__\
 He wants to be a mascot. Looking forwards to retiring from the current position.
 
-![photo](images/people/mr-penguin.png)
+![profile-photo](images/people/mr-penguin.png)
 
 <!-- 
 Copy the following to add a new section.
@@ -39,27 +38,27 @@ __*Your position*__ \
 [`email`](mailto:youremail@ubc.ca)\
 A line around 100 chr
 
-![photo](images/people/no-profile-pic.png) 
+![profile-photo](images/people/no-profile-pic.png) 
 
 -->
 
 <div class="end-people"></div>
 
-<!-- ---
+<!-- 
+---
 
 ## Collaborators 
 
 - people name, affiliation
-- people name, affiliation -->
+- people name, affiliation
+-->
 
-
-
-<!-- ---
-
+<!--
 ## Alumni
 
 <div class="begin-people"></div>
 
 copy from current member
 
-<div class="end-people"></div> -->
+<div class="end-people"></div> 
+-->
