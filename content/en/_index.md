@@ -10,7 +10,7 @@ header_use_video: false
 #
 # Headers are safeHTML, you can use HTML tags such as b,i,u,br
 header_headline: "CODA Lab"
-header_subheadline: "<b>C</b>ognition <b>O</b>pen <b>D</b>ata <b>A</b>nalysis "
+header_subheadline: "<b>C</b>ognition - <b>O</b>pen <b>D</b>ata - <b>A</b>nalysis / AI "
 
 # Add a 'Go back to top' item to the navigation menu
 # Title: name of navigation menu entry
