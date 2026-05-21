@@ -1,8 +1,7 @@
 ---
 title: "Research"
 weight: 2
-header_menu: true
+header_menu: false
 
 ---
 
-Research stuff

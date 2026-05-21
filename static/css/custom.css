@@ -1,0 +1,97 @@
+/*----------------------------
+    Two column layout stuff
+    https://github.com/mattbierner/markdown-two-column-documentation-example/tree/master
+  ---------------------------*/
+/* Main Section Headings and sub headings */
+article .begin-people ~ h2,
+article .begin-people ~ h2 + p {
+    width: 100%;
+    clear: both;
+}
+
+/* Columns */
+article .begin-people ~ h5,
+article .begin-people ~ p,
+article .begin-people ~ .highlight,
+article .begin-people ~ pre {
+    width: 50%;
+}
+
+/* Left Column */
+article .begin-people ~ h5,
+article .begin-people ~ p {
+    float: left;
+    box-sizing: border-box;
+    padding-right: 1rem;
+    clear: both;
+}
+
+article .begin-people ~ p:not(:has(img)) {
+    font-size: 90%;
+}
+
+/* Right Column */
+article .begin-people ~ .highlight,
+article .begin-people ~ pre,
+article .begin-people ~ p:has(img) {
+    float: right;
+    clear: right;
+    margin-bottom: 1rem;
+}
+
+/* Reset */
+article .end-people ~ p,
+article .end-people ~ h5,
+article .end-people ~ .highlight,
+article .end-people ~ pre {
+    width: auto;
+    float: none;
+    clear: none;
+}
+
+.end-people {
+    clear: both;
+}
+
+@media print, screen and (max-width: 580px) {
+
+/*----------------------------
+    Two column layout media
+  ---------------------------*/
+article .begin-people ~ h5,
+article .begin-people ~ p,
+article .begin-people ~ .highlight,
+article .begin-people ~ pre {
+    width: 100%;
+    float: none;
+    clear: none;
+}
+
+}
+
+
+/* profile pic */
+img[alt=photo] {
+    width: 60%;
+    height: auto;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* affiliation */
+img[alt=affiliation] {
+    display: inline;
+    margin: 0 1rem;
+    height: 100px;
+}
+
+p:has(img[alt=affiliation]) {
+    text-align: center;
+}
+
+/* prevent automatic word hyphenation in body text */
+p {
+    hyphens: none;
+    overflow-wrap: break-word;
+}

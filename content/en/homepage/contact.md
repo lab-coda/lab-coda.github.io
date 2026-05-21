@@ -1,10 +1,11 @@
 ---
 title: "Contact"
 weight: 6
-header_menu: true
+header_menu: false
 ---
 
-PI: Hao-Ting Wang \
+__PI: Hao-Ting Wang__ \
 Djavad Mowafaghian Centre for Brain Health \
-2215 Wesbrook Mall, Vancouver, BC, V6T 1Z3, Canad
+University of British Columbia \
+2215 Wesbrook Mall, Vancouver, BC, V6T 1Z3, Canada
 {{<contact_list>}}
