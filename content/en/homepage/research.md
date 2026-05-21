@@ -6,7 +6,7 @@ header_menu: false
 
 ---
 
-Our research broadly fit into these three areas:
+Our research broadly fits into these three areas:
 
 #### Neurocognitive foundation models
 
