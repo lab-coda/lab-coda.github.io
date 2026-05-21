@@ -1,10 +1,12 @@
 ---
-title: " "
+title: "Research"
 navigation_menu_title: "Research"
 weight: 2
 header_menu: false
 
 ---
+
+Our research broadly fit into these three areas:
 
 #### Neurocognitive foundation models
 
