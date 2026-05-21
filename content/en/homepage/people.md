@@ -14,7 +14,7 @@ The lab starts in May 2026 at UBC. We are hoping to [grow this team](#open-posit
 
 ##### Hao-Ting Wang, PhD
 
-__*Principle investigator*__ \
+__*Principal investigator*__ \
 [`website`](https://wanghaoting.com/)
 [`email`](mailto:haoting.wang@ubc.ca)\
 Assistant Professor in Data Science. 

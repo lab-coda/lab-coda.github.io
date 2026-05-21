@@ -11,5 +11,5 @@ We aim to conduct reproducible research and share our tools openly with the comm
 
 ![image](images/ubc_djavid-mowafaghian-centre-for-brain-health_1920x1080_50517125641_o.jpg)
 
-CODA Lab is located in Djavid Mowafaghian Centre for Brain Health on the UBC Point Grey (Vancouver) campus, 
+CODA Lab is located in Djavad Mowafaghian Centre for Brain Health on the UBC Point Grey (Vancouver) campus, 
 which sits on the traditional, ancestral, unceded territory of the xʷməθkʷəy̓əm (Musqueam) First Nation.
