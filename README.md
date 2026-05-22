@@ -8,7 +8,7 @@ Lab website for the CODA Lab at UBC, built with [Hugo](https://gohugo.io/) using
 hugo server --renderStaticToDisk
 ```
 
-> **Note:** Do not use plain `hugo server`. Static files (including CSS) may not sync on startup, causing styles to appear broken until you manually save a file in `static/`. The `--renderStaticToDisk` flag serves static files directly from disk and avoids this issue. This is a know Hugo quirk according to Claude.
+> **Note:** Do not use plain `hugo server`. Static files (including CSS) may not sync on startup, causing styles to appear broken until you manually save a file in `static/`. The `--renderStaticToDisk` flag serves static files directly from disk and avoids this issue. This is a known Hugo quirk, according to Claude.
 
 ## Adding a new lab member
 
