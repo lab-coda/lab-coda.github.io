@@ -14,7 +14,7 @@ hugo server --renderStaticToDisk
 
 Please submit as a pull request.
 
-1. Add a headshot to `assets/images/people/<first-name-last-name>.png` (square crop recommended).
+1. Add a headshot to `static/images/people/<first-name-last-name>.png` (square crop recommended).
 2. Copy the template block from the comment in `content/en/homepage/people.md` and fill in the details.
 3. Use `![profile-photo](images/people/<first-name-last-name>.png)` as the image line — the `profile-photo` alt text is required for the circular crop and two-column layout CSS to apply.
 
