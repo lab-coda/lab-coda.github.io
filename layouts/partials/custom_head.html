@@ -76,10 +76,10 @@
           document.addEventListener('keydown', function(e) {
                if (e.key === seq[idx]) {
                     idx++;
-               if (idx === seq.length) {
-                    openManual();
-                    idx = 0;
-               }
+                    if (idx === seq.length) {
+                         openManual();
+                         idx = 0;
+                    }
                } else {
                     idx = (e.key === seq[0]) ? 1 : 0;
                }

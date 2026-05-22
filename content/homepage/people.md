@@ -66,5 +66,5 @@ copy from current member
 ## Lab Photos
 
 <div class="lab-photos">
-{{< figure src="images/people/lab-photo_2026-05.png" caption="May 2026" class="lab-photo" >}}
+    {{< figure src="images/people/lab-photo_2026-05.png" caption="May 2026" class="lab-photo" >}}
 </div>
