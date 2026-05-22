@@ -53,3 +53,68 @@
 {{ range seq 9 4 }}{{ $size := pow 2 . }}{{ $file := replace "images/favicon-##x##.png" "##" $size }}{{ with resources.Get $file }}
 <link rel="icon" type="{{ .MediaType.Type }}" sizes="{{- $size -}}x{{- $size -}}" href="{{ .RelPermalink }}" />{{ end }}{{ end }}
 
+
+<!-- some ways to find the lab manual -->
+<script>
+     function openManual() {
+          const a = document.createElement('a');
+          a.href = 'https://lab-manual.pages.dev/';
+          a.target = '_blank';
+          a.click();
+     }
+
+     (function() {
+          const seq = ['ArrowUp','ArrowUp','ArrowDown','ArrowDown','ArrowLeft','ArrowRight','ArrowLeft','ArrowRight','b','a'];
+          let idx = 0;
+          document.addEventListener('keydown', function(e) {
+               if (e.key === seq[idx]) {
+                    idx++;
+               if (idx === seq.length) {
+                    openManual();
+                    idx = 0;
+               }
+               } else {
+                    idx = (e.key === seq[0]) ? 1 : 0;
+               }
+          });
+     })();
+
+     (function() {
+          const keyword = 'coda';
+          let typed = '';
+          document.addEventListener('keydown', function(e) {
+               typed += e.key.toLowerCase();
+               if (typed.length > keyword.length) typed = typed.slice(-keyword.length);
+               if (typed === keyword) {
+                    openManual();
+                    typed = '';
+               }
+          });
+     })();
+
+     (function() {
+          const style = 'color: #61a8ff; font-weight: bold; font-size: 14px;';
+          console.log('%c👀 how do i get Lab Manual', style);
+               window.getLabManual = function() {
+                    openManual();
+               };
+     })();
+
+     document.addEventListener('DOMContentLoaded', function() {
+          const target = document.querySelector('.blog-title');
+          const clicks = 5;
+          let count = 0;
+          let timer;
+          target.addEventListener('click', function() {
+               count++;
+               clearTimeout(timer);
+               if (count === clicks) {
+                    openManual();
+                    count = 0;
+               } else {
+                    timer = setTimeout(function() { count = 0; }, 1500);
+               }
+          });
+     });
+</script>
+
