@@ -41,7 +41,7 @@ enableEmoji = true
     title = "CODA Lab"
 
     # The "description" of your website. This is used in the meta data of your generated html.
-    description = "Lab website."
+    description = "CODA Lab investigates the neurocognitive processes underlying daily experience and mental health, using naturalistic neuroimaging, experience sampling, and transdiagnostic methods."
 
     # Show a menu of languages available
     # language_menu = false
@@ -76,7 +76,7 @@ enableEmoji = true
     showFooterLinks = false
 
     [params.meta]
-        keywords = "fMRI, neuroinformatics, open source, cognition"
+        keywords = "fMRI, neuroinformatics, open source, cognition, transdiagnostic, naturalistic neuroimaging, phenotyping"
 
     [[params.contacts]]
         label = "phone"

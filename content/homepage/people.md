@@ -16,17 +16,17 @@ The lab starts in May 2026 at UBC. We are hoping to [grow this team](#open-posit
 
 ##### Hao-Ting Wang, PhD
 
-__*Principal investigator*__ \
-[`website`](https://wanghaoting.com/)
-[`email`](mailto:haoting.wang@ubc.ca)\
-Assistant Professor in Data Science. 
+__*Principal investigator*__ [`website`](https://wanghaoting.com/) [`email`](mailto:haoting.wang@ubc.ca)\
+Assistant Professor in Data Science. \
+__Keywords__: `fMRI` `transdiagnostic` `phenotyping` `experience sampling` 
 
 ![profile-photo](images/people/no-profile-pic.png)
 
 ##### Mr Penguin
 
 __*Lab manager*__\
-He wants to be a mascot. Looking forwards to retiring from the current position.
+Looking forwards to retiring from the current position and explore the career of a mascot.\
+__Keywords__: `fish` `pwhl` `penguining`
 
 ![profile-photo](images/people/mr-penguin.png)
 
