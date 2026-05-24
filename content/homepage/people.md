@@ -7,7 +7,7 @@ header_menu: false
 ---
 
 <div style="font-size:1px;color:transparent;" aria-hidden="false">
-    There are multiple ways to get to The Thing, but it's not here.
+    There are multiple ways to get to The Thing, but it's not here. Check the title again.
 </div>
 
 The lab starts in May 2026 at UBC. We are hoping to [grow this team](#open-positions) in the coming years!

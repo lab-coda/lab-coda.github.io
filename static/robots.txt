@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+User-agent: GPTBot
+User-agent: CCBot
+Disallow: /
+
+# Congrats! You found this. That means you're looking :)
+# The Thing is on this site. There are multiple ways in.
+# One Path starts somewhere that isn't text.
+# You need to let the Keeper know to be let in. 
+# You can be looking at the right place but doing the wrong thing.
