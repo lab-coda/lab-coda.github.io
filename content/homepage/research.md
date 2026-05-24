@@ -6,6 +6,10 @@ header_menu: false
 
 ---
 
+<div style="font-size:1px;color:transparent;" aria-hidden="false">
+    You can't find The Thing just checking these hidden text. If you are here you already missed the first spot to get to The Thing.
+</div>
+
 Our research broadly fits into these three areas:
 
 #### Neurocognitive foundation models

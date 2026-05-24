@@ -6,8 +6,11 @@ weight: 3
 header_menu: false
 ---
 
-The lab starts in May 2026 at UBC. We are hoping to [grow this team](#open-positions) in the coming years!
+<div style="font-size:1px;color:transparent;" aria-hidden="false">
+    There are multiple ways to get to The Thing, but it's not here.
+</div>
 
+The lab starts in May 2026 at UBC. We are hoping to [grow this team](#open-positions) in the coming years!
 
 <div class="begin-people"></div>
 
