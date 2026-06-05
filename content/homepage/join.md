@@ -20,7 +20,7 @@ If you are interested in joining, please [email us](mailto:haoting.wang@ubc.ca) 
 
 #### Undergraduate Students
 
-We welcome UBC undergraduate students as co-op students, course-based researchers, or volunteers starting Autumn 2026. 
+We welcome UBC undergraduate students as co-op students or course-based researchers starting in Autumn 2026. 
 The minimum commitment is 8 hours per week over a 4-month term.
 
 #### Graduate Students
