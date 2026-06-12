@@ -25,7 +25,7 @@ __Keywords__: `fMRI` `transdiagnostic` `phenotyping` `experience sampling`
 ##### Mr Penguin
 
 __*Lab manager*__\
-Looking forwards to retiring from the current position and explore the career of a mascot.\
+Looking forward to retiring from the current position and exploring the career of a mascot.\
 __Keywords__: `fish` `pwhl` `penguining`
 
 ![profile-photo](images/people/mr-penguin.png)

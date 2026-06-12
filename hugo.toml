@@ -76,7 +76,7 @@ enableEmoji = true
     showFooterLinks = false
 
     [params.meta]
-        keywords = "fMRI, neuroinformatics, open source, cognition, transdiagnostic, naturalistic neuroimaging, phenotyping"
+        keywords = "fMRI, neuroinformatics, cognition, transdiagnostic, naturalistic neuroimaging, phenotyping"
 
     [[params.contacts]]
         label = "phone"

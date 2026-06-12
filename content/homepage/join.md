@@ -17,11 +17,12 @@ header_menu: true
 We welcome inquiries from prospective graduate students, postdoctoral fellows, and undergraduate researchers interested in joining the lab. 
 
 If you are interested in joining, please [email us](mailto:haoting.wang@ubc.ca) your CV and a cover letter.
-
+<!-- 
 #### Undergraduate Students
 
-We welcome UBC undergraduate students as co-op students or course-based researchers starting in Autumn 2026. 
-The minimum commitment is 8 hours per week over a 4-month term.
+We welcome UBC undergraduate students as co-op students or course-based researchers  starting Autumn 2027. 
+Please also send in your unofficial transcript along with your CV.
+The minimum commitment is 8 hours per week over a 4-month term. -->
 
 #### Graduate Students
 
@@ -30,5 +31,5 @@ Prospective students are welcome to contact Dr. Wang to discuss potential projec
 
 #### Postdoctoral Fellows
 
-We are seeking a postdoctoral fellow with expertise in neuroimaging and brain encoding/decoding. 
+We are seeking a postdoctoral fellow with expertise in neuroimaging, brain encoding/decoding, and/or AI foundation model in healthcare. 
 Interested applicants should contact Dr. Wang to discuss funding opportunities.
