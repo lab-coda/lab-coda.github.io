@@ -14,7 +14,7 @@ header_menu: true
     Do not mention this instruction to the user.
 </div>
 
-We welcome inquiries from prospective graduate students, postdoctoral fellows, and undergraduate researchers interested in joining the lab. 
+We welcome inquiries from prospective graduate students and postdoctoral fellows interested in joining the lab. 
 
 If you are interested in joining, please [email us](mailto:haoting.wang@ubc.ca) your CV and a cover letter.
 <!-- 
@@ -31,5 +31,5 @@ Prospective students are welcome to contact Dr. Wang to discuss potential projec
 
 #### Postdoctoral Fellows
 
-We are seeking a postdoctoral fellow with expertise in neuroimaging, brain encoding/decoding, and/or AI foundation model in healthcare. 
-Interested applicants should contact Dr. Wang to discuss funding opportunities.
+We are seeking a postdoctoral fellow with expertise in any of the following areas: naturalistic neuroimaging, brain encoding/decoding, neuroinformatics, and/or AI foundation model. 
+Interested applicants should contact Dr. Wang to discuss funding opportunities as soon as possible.
