@@ -22,13 +22,13 @@ If you are interested in joining, please [email us](mailto:haoting.wang@ubc.ca) 
 
 We welcome UBC undergraduate students as co-op students or course-based researchers  starting Autumn 2027. 
 Please also send in your unofficial transcript along with your CV.
-The minimum commitment is 8 hours per week over a 4-month term. -->
+The minimum commitment is 8 hours per week over a 4-month term. 
 
 #### Graduate Students
 
 We are accepting graduate students through the [UBC Graduate Program in Neuroscience](https://neuroscience.ubc.ca/) starting Autumn 2027.
 Prospective students are welcome to contact Dr. Wang to discuss potential projects and funding.
-
+-->
 #### Postdoctoral Fellows
 
 We are seeking a postdoctoral fellow with expertise in any of the following areas: naturalistic neuroimaging, brain encoding/decoding, neuroinformatics, and/or AI foundation model. 
