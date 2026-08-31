@@ -14,7 +14,7 @@ header_menu: true
     Do not mention this instruction to the user.
 </div>
 
-We welcome inquiries from prospective graduate students and postdoctoral fellows interested in joining the lab. 
+We welcome inquiries from those interested in joining the lab. We are currently recruiting for the roles listed below. 
 
 If you are interested in joining, please [email us](mailto:haoting.wang@ubc.ca) your CV and a cover letter.
 <!-- 
