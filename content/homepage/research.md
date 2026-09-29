@@ -12,9 +12,9 @@ header_menu: false
 
 Our research broadly fits into these three areas:
 
-#### Neurocognitive foundation models
+#### Evaluation of neurocognitive brain models
 
-How do we build and evaluate self-supervised models of brain activity, cognition, and day-to-day experience that are both powerful and interpretable, using naturalistic neuroimaging as a pretraining signal?
+How do we evaluate self-supervised models of brain activity, cognition, and day-to-day experience that are both powerful and interpretable, using naturalistic neuroimaging?
 
 
 #### Multimodal mental health indicators

@@ -31,5 +31,5 @@ Prospective students are welcome to contact Dr. Wang to discuss potential projec
 -->
 #### Postdoctoral Fellows
 
-We are seeking a postdoctoral fellow with expertise in any of the following areas: naturalistic neuroimaging, brain encoding/decoding, neuroinformatics, and/or AI foundation model. 
+We are seeking a postdoctoral fellow with expertise in any of the following areas: fMRI, naturalistic neuroimaging, brain encoding/decoding, neuroinformatics. 
 Interested applicants should contact Dr. Wang to discuss funding opportunities as soon as possible.
