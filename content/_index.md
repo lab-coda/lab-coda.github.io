@@ -9,7 +9,7 @@ header_use_video: false
 # header_logo: "images/chef-hat.png"
 #
 # Headers are safeHTML, you can use HTML tags such as b,i,u,br
-header_headline: "CODA Lab"
+header_headline: header_headline: '<img src="/images/coda_wordmark_one-colour-white.svg" alt="CODA Lab" class="blog-wordmark">'
 header_subheadline: "<b>C</b>ognition - <b>O</b>pen <b>D</b>ata - <b>A</b>nalysis"
 
 # Add a 'Go back to top' item to the navigation menu
