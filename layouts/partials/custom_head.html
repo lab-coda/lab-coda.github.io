@@ -3,33 +3,36 @@
 
 <style>
 :root {
-    /* Cover / Landing area */
-    --cover-text-color: #e2d4c4;
-    --highlight: #011e42;
-    --highlight-contrast: #e2d4c4;
-    --highlight-inverse: #61a8ff;
-    --highlight-inverse-contrast: #852734;
-    --cover-title-and-description-guard-bg-color: #61a8ff;
-    --cover-title-text-shadow: #e2d4c4;
+    /* CODA Lab brand colours (see github.com/lab-coda/brand)
+       ink #141B2D · magenta #BE185D · pink #F472B6 · slate #4A5263 · mist #B8BEC9 */
 
-    /* Sticky navigation */
-    --sticky-menu-text-color: #61a8ff;
+    /* Cover / Landing area (background = --section-light-bg-color) */
+    --cover-text-color: #FFFFFF;
+    --highlight: #BE185D;
+    --highlight-contrast: #FFFFFF;
+    --highlight-inverse: #F472B6;
+    --highlight-inverse-contrast: #141B2D;
+    --cover-title-and-description-guard-bg-color: rgba(20, 27, 45, 0.6);
+    --cover-title-text-shadow: none;
 
-    /* Light sections */
-    --section-light-text-color: #e2d4c4;
-    --section-light-bg-color: #852734;
+    /* Sticky navigation (sits on the ink background) */
+    --sticky-menu-text-color: #F472B6;
 
-    /* Dark sections */
-    --section-dark-text-color: #011e42;
-    --section-dark-bg-color: #e2d4c4;
+    /* "Light" sections: ink background (also the cover and sticky menu) */
+    --section-light-text-color: #E8EAEE;
+    --section-light-bg-color: #141B2D;
+
+    /* "Dark" sections: white background */
+    --section-dark-text-color: #141B2D;
+    --section-dark-bg-color: #FFFFFF;
 
     /* Code */
-    --section-uni-code-bg-color: #011e42;
-    --section-uni-quote: #5a3040;
+    --section-uni-code-bg-color: #2A3450;
+    --section-uni-quote: #7A8294;
 
     /* Footer */
-    --footer-color-background: #011e42;
-    --footer-color: #e2d4c4;
+    --footer-color-background: #0B0F1A;
+    --footer-color: #B8BEC9;
 }
 
 </style>
@@ -56,7 +59,7 @@
      Generated via https://favicon.io/favicon-generator/ -->
 
 {{ with resources.Get "images/apple-touch-icon.png" }}<link rel="apple-touch-icon" sizes="180x180" href="{{ .RelPermalink }}" />{{ end }}
-{{ with resources.Get "images/coda_avatar_rounded_64.png" }}<link rel="icon" type="image/svg+xml" href="{{ .RelPermalink }}" />{{ end }}
+{{ with resources.Get "images/coda_avatar_rounded.svg" }}<link rel="icon" type="image/svg+xml" href="{{ .RelPermalink }}" />{{ end }}
 {{ range seq 9 4 }}{{ $size := pow 2 . }}{{ $file := replace "images/favicon-##x##.png" "##" $size }}{{ with resources.Get $file }}
 <link rel="icon" type="{{ .MediaType.Type }}" sizes="{{- $size -}}x{{- $size -}}" href="{{ .RelPermalink }}" />{{ end }}{{ end }}
 

@@ -128,3 +128,30 @@ p {
 }
 
 .blog-wordmark { height: 1.1em; width: auto; vertical-align: middle; }
+/* Link hover on white sections: magenta (pink is reserved for dark backgrounds) */
+.post-holder.dark a:hover { color: #BE185D; }
+
+/*----------------------------
+    Brand fonts: Inter for text, Fira Code for code (SIL OFL, see static/fonts/)
+  ---------------------------*/
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 400; font-display: swap; src: url("../fonts/Inter-Regular.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: italic; font-weight: 400; font-display: swap; src: url("../fonts/Inter-Italic.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 600; font-display: swap; src: url("../fonts/Inter-SemiBold.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 700; font-display: swap; src: url("../fonts/Inter-Bold.woff2") format("woff2"); }
+@font-face { font-family: "Fira Code"; font-style: normal; font-weight: 400; font-display: swap; src: url("../fonts/FiraCode-Regular.woff2") format("woff2"); }
+
+body,
+h1, h2, h3, h4, h5, h6,
+#site-head .blog-description, #site-head.withCenteredImage .blog-description,
+#site-head a.btn, #site-head.withCenteredImage a.btn,
+#site-head #site-languages .btn-lang, #site-head.withCenteredImage #site-languages .btn-lang,
+.fixed-nav,
+.site-footer {
+    font-family: "Inter", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 { letter-spacing: -0.01em; }
+
+code, tt, pre {
+    font-family: "Fira Code", monospace;
+}
