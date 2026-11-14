@@ -59,7 +59,7 @@ enableEmoji = true
     hidedesignbyline = false
 
     # The sections of the home page alternate styling. Mark invert as true to swap the styling of the sections
-    invertSectionColors = false
+    invertSectionColors = true
 
     # Options used for automatic image generation. see: https://gohugo.io/content-management/image-processing/
     image_options = "webp q90 lanczos photo"
