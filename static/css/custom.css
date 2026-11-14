@@ -126,3 +126,5 @@ p {
     0%, 100% { opacity: 1; }
     50% { opacity: 0.55; }
 }
+
+.blog-wordmark { height: 1.1em; width: auto; vertical-align: middle; }
