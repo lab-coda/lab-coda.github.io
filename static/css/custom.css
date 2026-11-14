@@ -128,7 +128,7 @@ p {
 }
 
 .blog-wordmark { height: 1.1em; width: auto; vertical-align: middle; }
-/* Link hover on white sections: magenta (pink is reserved for dark backgrounds) */
+/* Link hover on light sections: magenta (pink is reserved for dark backgrounds) */
 .post-holder.dark a:hover { color: #BE185D; }
 
 /*----------------------------
